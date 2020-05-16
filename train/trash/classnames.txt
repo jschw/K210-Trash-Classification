@@ -1,0 +1,1 @@
+{'cardboard': 0, 'glass': 1, 'metal': 2, 'paper': 3, 'plastic_bottle': 4, 'plastic_other': 5}
