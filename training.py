@@ -27,7 +27,7 @@ import os
 
 
 # Run example:
-# python training.py -dataset trash_small_nosplit -val_split 0.1
+# python training.py -dataset trash -val_split 0.1
 
 
 # General functions
