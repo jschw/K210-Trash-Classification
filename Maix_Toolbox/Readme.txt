@@ -1,0 +1,2 @@
+- Clone contents of github repo https://github.com/sipeed/Maix_Toolbox into this folder
+- Run get_nncase.sh
