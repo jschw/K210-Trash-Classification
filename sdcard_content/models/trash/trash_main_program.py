@@ -17,6 +17,8 @@ from machine import I2C
 
 # ===== Configuration =====
 
+# Comment out all parameters which are set in boot.py
+
 # Operation mode
 # Comment out when set in boot.py
 # 0 -> continuous/test , 1 -> single shot , 2 -> multi shot
@@ -345,14 +347,21 @@ while(True):
 
                 plist_tmp = fmap[:]
 
-                # add values to predicition vector
+                # add values to predicition vector element wise
+                # Example:
+                #list1=[1, 2, 3]
+                #list2=[4, 5, 6]
+                #result_list=[5,7,9]
                 i=0
                 for val in plist_tmp:
                     plist[i] = plist[i]+val
                     i=i+1
 
 
-	        # Divide through number of images taken (-> mean)
+	        # Divide through number of images taken (-> mean) element wise
+            # Example:
+            #result_list=[5,7,9] / img_num_mshot
+            #result_list=[0.5, 0.7, 0.9]
             i=0
             for val in plist:
                 plist[i] = val/img_num_mshot
