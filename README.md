@@ -4,7 +4,7 @@
 
 Simple trash image classifier, implemented on Kendryte K210 (Boards Sipeed Maix Go & M5Stick AI Camera).
 
-See detailed project description (German): ...
+See detailed project description (German): https://medium.com/@julianschweigert/implementierung-eines-neuronalen-netzes-zur-echtzeit-bilddatenklassifikation-auf-dem-kendryte-k210-d1f01b109b58?source=friends_link&sk=85684d538642a27050cadcb7ad1c570c
 
 ## Dataset
 
